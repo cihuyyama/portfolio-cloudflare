@@ -3,10 +3,12 @@ import React from 'react'
 const skills = [
     {skill: "JavaScript"},
     {skill: "TypeScript"},
+    {skill: "Golang"},
     {skill: "Node.Js"},
     {skill: "Next.Js"},
     {skill: "Vue.Js"},
     {skill: "Tailwind CSS"},
+    {skill: "MySQL"},
     {skill: "MongoDB"},
     {skill: "PostgreSQL"},
     {skill: "Git"},

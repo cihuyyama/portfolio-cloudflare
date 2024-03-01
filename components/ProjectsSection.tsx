@@ -14,12 +14,12 @@ const projects = [
         stack: ['Next Js', 'Tailwind CSS', 'Prisma', 'MongoDB']
     },
     {
-        name: "KopiSini POS",
-        description: "Web application system management Point-of-Sale for CoffeShop. Using online transaction to get the exact amount of the products.",
-        image: "/kopsin.png",
-        github: "https://github.com/cihuyyama/kopsin",
-        link: "https://kopsin.000webhostapp.com/",
-        stack: ['Laravel', 'PHP', 'Bootstrap']
+        name: "Travel Healthcare API",
+        description: "Web API for travel healthcare application that provides data for travel healthcare mobile application. It was built using Gin and MySQL for database. It was deployed on AWS EC2 instance using docker compose. Also using Next.Js for the frontend.",
+        image: "/travel.png",
+        github: "https://github.com/cihuyyama/server-travel-risk-assessment",
+        link: "https://travelhealthcare.vercel.app",
+        stack: ['Go', 'Gin', 'MySQL', 'Docker', 'AWS EC2']
     }
 ]
 
