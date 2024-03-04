@@ -6,21 +6,29 @@ import SlideUp from './SlideUp';
 
 const projects = [
     {
+        name: "Pembimbing.id (PT Kawan Kerja)",
+        description: "Pembimbing.ID is an online portal that offers student counseling services for advice across study programs and colleges all throughout Indonesia.",
+        image: "/pembimbingid.png",
+        github: "https://github.com/cihuyyama",
+        link: "https://pembimbing.id",
+        stack: ['Vue.Js', 'Tailwind CSS']
+    },
+    {
+        name: "Travel Healthcare API",
+        description: "Web API for travel healthcare application that provides data for travel healthcare mobile application. It was built using Golang and MySQL for database. It was deployed on AWS EC2 instance using docker compose. Also using Next.Js for the frontend.",
+        image: "/travel.png",
+        github: "https://github.com/cihuyyama/server-travel-risk-assessment",
+        link: "https://travelhealthcare.vercel.app",
+        stack: ['Go', 'Gin', 'MySQL', 'Docker', 'AWS EC2']
+    },
+    {
         name: "Netflix Clone",
         description: "Web Streaming application offers similar functionality and UI to Netflix and was built using SWR React hooks library for data fetching and axios for http client.",
         image: "/netflixclone.png",
         github: "https://github.com/cihuyyama/netflix-clone",
         link: "https://netflix-clone-cihuyyama.vercel.app/",
-        stack: ['Next Js', 'Tailwind CSS', 'Prisma', 'MongoDB']
+        stack: ['Next.Js', 'Tailwind CSS', 'Prisma', 'MongoDB']
     },
-    {
-        name: "Travel Healthcare API",
-        description: "Web API for travel healthcare application that provides data for travel healthcare mobile application. It was built using Gin and MySQL for database. It was deployed on AWS EC2 instance using docker compose. Also using Next.Js for the frontend.",
-        image: "/travel.png",
-        github: "https://github.com/cihuyyama/server-travel-risk-assessment",
-        link: "https://travelhealthcare.vercel.app",
-        stack: ['Go', 'Gin', 'MySQL', 'Docker', 'AWS EC2']
-    }
 ]
 
 function ProjectsSection() {
